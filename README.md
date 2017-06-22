@@ -28,7 +28,7 @@ consumer_key       = your_consumer_key
 ### First step
 
 ```
-composer create-project jbelien/ovh-monitoring
+composer create-project anmolnagpal/ovh-api-monitoring
 ```
 
 ### Second step
