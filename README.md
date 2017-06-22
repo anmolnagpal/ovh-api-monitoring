@@ -1,6 +1,6 @@
-![Release](https://img.shields.io/github/release/jbelien/ovh-monitoring.svg)
-[![Docker build](https://img.shields.io/docker/automated/jbelien/ovh-monitoring.svg)](https://hub.docker.com/r/jbelien/ovh-monitoring/)
-[![Docker build](https://img.shields.io/docker/build/jbelien/ovh-monitoring.svg)](https://hub.docker.com/r/jbelien/ovh-monitoring/)
+![Release](https://img.shields.io/github/release/anmolnagpal/ovh-monitoring.svg)
+[![Docker build](https://img.shields.io/docker/automated/jbelien/ovh-monitoring.svg)](https://hub.docker.com/r/anmolnagpal/ovh-monitoring/)
+[![Docker build](https://img.shields.io/docker/build/jbelien/ovh-monitoring.svg)](https://hub.docker.com/r/anmolnagpal/ovh-monitoring/)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jbelien/OVH-Monitoring/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jbelien/OVH-Monitoring/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/jbelien/OVH-Monitoring/badges/build.png?b=master)](https://scrutinizer-ci.com/g/jbelien/OVH-Monitoring/build-status/master)
 
@@ -34,7 +34,7 @@ consumer_key       = your_consumer_key
 ### First step
 
 ```
-composer create-project jbelien/ovh-monitoring
+composer create-project jbelien/ovh-api-monitoring
 ```
 
 ### Second step
@@ -45,16 +45,16 @@ Create `monitoring.ini` file next to `public` directory (see [Configuration](#co
 
 ### First step
 
-Build image from [GitHub](https://github.com/jbelien/OVH-Monitoring):
+Build image from [GitHub](https://github.com/anmolnagpal/ovh-api-monitoring):
 ```
-docker build --rm -t jbelien/ovh-monitoring https://github.com/jbelien/OVH-Monitoring.git
+docker build --rm -t anmolnagpal/ovh-api-monitoring https://github.com/anmolnagpal/ovh-api-monitoring.git
 ```
 
 **OR**
 
-Pull image from [Docker Hub](https://hub.docker.com/r/jbelien/ovh-monitoring/):
+Pull image from [Docker Hub](https://hub.docker.com/r/anmolnagpal/ovh-api-monitoring/):
 ```
-docker pull jbelien/ovh-monitoring
+docker pull anmolnagpal/ovh-api-monitoring
 ```
 
 ### Second step
