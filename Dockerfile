@@ -1,4 +1,5 @@
 FROM php:7.0-apache
+MAINTAINER Anmol Nagpal <anmol.nagpal@gmail.com>
 
 RUN apt-get update && apt-get install -y \
 		git \
