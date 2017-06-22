@@ -1,5 +1,5 @@
 FROM php:7.0-apache
-MAINTAINER Anmol Nagpal <anmol.nagpal@gmail.com>
+MAINTAINER Anmol Nagpal <ianmolnagpal@gmail.com>
 
 RUN apt-get update && apt-get install -y \
 		git \
@@ -27,7 +27,7 @@ RUN curl -s -f -L -o /tmp/installer.php https://raw.githubusercontent.com/compos
  && php /tmp/installer.php --no-ansi --install-dir=/usr/bin --filename=composer --version=${COMPOSER_VERSION} \
  && rm /tmp/installer.php \
  && composer --ansi --version --no-interaction \
- && composer require jbelien/ovh-monitoring
+ && composer require anmolnagpal/ovh-api-monitoring
 
 COPY . /var/www/html/
 
