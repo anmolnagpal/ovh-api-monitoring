@@ -1,14 +1,15 @@
 {
-    "name": "jbelien/ovh-monitoring",
-    "description": "OVH VPS/Cloud Monitoring via OVH API",
-    "type": "project",
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Jonathan Beliën"
-        }
-    ],
-    "require": {
-        "ovh/ovh": "^2.0"
+  "name": "anmolnagpal/ovh-api-monitoring",
+  "description": "OVH VPS/Cloud Monitoring via OVH API",
+  "type": "project",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Anmol Nagpal",
+      "email": "ianmolnagpal@gmail.com"
     }
+  ],
+  "require": {
+    "ovh/ovh": "^2.0"
+  }
 }
